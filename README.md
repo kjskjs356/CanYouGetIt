@@ -36,20 +36,18 @@
 ## 🎯 기능 소개
 <details>
 <summary>MSA - spring 서버 및 DB를 기능별로 분리</summary>
-
 접은 내용
 </details>
 
 <details>
 <summary>Spring gateway 및 eureka</summary>
-
 접은 내용
 </details>
 
 
 <details>
 <summary>Spring Batch를 이용한 정산 시스템</summary>
-<img src="/document/gif/정산.gif" title="정산" width="30%" height="30%"/> <br>
+<img src="document/gif/batch.gif" title="정산" width="100%"/> <br>
 매일 일정한 시각마다 자동으로 공연 주최자들에게 돈을 정산
 </details>
 
@@ -61,8 +59,7 @@
 
 <details>
 <summary>kafka를 이용한 대기열 시스템</summary>
-<img src="/document/gif/정산.gif" title="정산" width="30%" height="30%"/> <br>
-접은 내용
+<img src="document/gif/queue.gif" title="대기열" width="100%"/> <br>
 </details>
 
 <details>
@@ -92,37 +89,40 @@
 
 <details>
 <summary>헬름차트를 이용한 쿠버네티스 리소스 관리</summary>
-
 접은 내용
 </details>
 
 <details>
-<summary>그라파나랑 프로메테우스를 이용한 자원 관리</summary>
+<summary>카카오 로그인 OAuth</summary>
+<img src="document/gif/login.gif" title="카카오 로그인" width="100%"/> <br>
+</details>
 
+<details>
+<summary>그라파나랑 프로메테우스를 이용한 자원 관리</summary>
 접은 내용
 </details>
 
 <details>
 <summary>집킨을 이용한 분산추적시스템</summary>
-
 접은 내용
 </details>
 
 <details>
 <summary>Feign Client를 이용한 서버 간 통신</summary>
-
 접은 내용
 </details>
 
 <details>
 <summary>jacoco를 이용한 코드 커버리지 측정</summary>
-
-접은 내용
+<img src="document/img/jacoco_1.png" title="jacoco_1" width="100%"/> <br>
+build>reports>tests>test>index.html
+<br>
+<img src="document/img/jacoco_2.png" title="jacoco_2" width="100%"/> <br>
+build>reports>jacoco>test>html>index.html
 </details>
 
 <details>
 <summary>카카오페이를 이용한 결제 시스템</summary>
-
 접은 내용
 </details>
 
@@ -153,6 +153,7 @@
 - mySQL
 - redis
 - AWS S3
+- kafka
 
 `Frontend`
 - visual Studio Code IDE
@@ -173,15 +174,20 @@
 - docker
 - docker-compose
 
+`test`
+- locust
+- python
 
-`etc`
+`monitoring`
+- grafana
+
+`logging`
 - elasticsearch
 - logstash
 - kibana
 - filebeat
-- kafka
-- locust
-- python
+
+`etc`
 - gitlab
 - notion
 - jira
